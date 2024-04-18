@@ -5,5 +5,5 @@ export default function Error500Page() {
 				500 | Internal Server Error
 			</h1>
 		</div>
-	)
+	);
 }

@@ -1,9 +1,9 @@
-import Head from "next/head"
-import { ReactNode } from "react"
+import Head from "next/head";
+import { ReactNode } from "react";
 
 interface LayoutProps {
-	children: ReactNode
-	pageTitle?: string
+	children: ReactNode;
+	pageTitle?: string;
 }
 
 export default function Layout({ children, pageTitle }: LayoutProps) {
@@ -17,5 +17,5 @@ export default function Layout({ children, pageTitle }: LayoutProps) {
 			</Head>
 			<main className="main-content">{children}</main>
 		</>
-	)
+	);
 }

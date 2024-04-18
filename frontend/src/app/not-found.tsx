@@ -5,5 +5,5 @@ export default function NotFoundPage() {
 				404 | Page Not Found
 			</h1>
 		</div>
-	)
+	);
 }
