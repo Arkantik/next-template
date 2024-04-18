@@ -86,7 +86,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 ### Built With
 
-<img src="https://skillicons.dev/icons?i=html,css,next,ts,tailwind,docker,nodejs,graphql,mysql&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,next,ts,tailwind,docker,nodejs,graphql,express&theme=dark" />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
