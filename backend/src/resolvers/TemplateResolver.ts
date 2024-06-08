@@ -1,4 +1,10 @@
-import { Resolver } from "type-graphql";
+import { Query, Resolver } from "type-graphql"
+import { TemplateEntity } from "../entities/TemplateEntity"
 
-@Resolver()
-export class TemplateResolver {}
+@Resolver(TemplateEntity)
+export class TemplateResolver {
+	@Query(() => [TemplateEntity])
+	async templates() {
+		return TemplateEntity.find()
+	}
+}
