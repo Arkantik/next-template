@@ -7,4 +7,4 @@ COPY .env ./.env
 COPY src ./src
 COPY tsconfig.json ./tsconfig.json
 
-CMD npm run dev
+CMD npm start
