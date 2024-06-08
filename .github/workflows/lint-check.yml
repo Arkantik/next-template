@@ -1,3 +1,11 @@
+name: Lint
+
+on:
+  pull_request:
+    paths:
+      - "frontend/**"
+      - "backend/**"
+
 jobs:
   filter:
     runs-on: ubuntu-latest
