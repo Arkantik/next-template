@@ -137,6 +137,13 @@ _Below is a step by step series of tasks that will help you on installing and se
    npm start
    ```
 
+4. Build your container
+
+   ```sh
+   ## At the root of the project
+   npm run dev
+   ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->

@@ -10,6 +10,6 @@ COPY tsconfig.json ./tsconfig.json
 COPY next-env.d.ts ./next-env.d.ts
 COPY next.config.mjs ./next.config.mjs
 COPY postcss.config.mjs ./postcss.config.mjs
-COPY tailwind.config.js ./tailwind.config.ts
+COPY tailwind.config.ts ./tailwind.config.ts
 
 CMD npm run dev
