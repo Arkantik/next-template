@@ -15,6 +15,8 @@ services:
 
   backend:
     stop_grace_period: 0s
+    environment:
+      - DB_HOST=db
     depends_on:
       db:
         condition: service_healthy
@@ -32,4 +34,5 @@ services:
       - 3000:3000
     volumes:
       - ./frontend/src:/app/src/
+      - ./frontend/public:/app/public/
     env_file: ./global.env
